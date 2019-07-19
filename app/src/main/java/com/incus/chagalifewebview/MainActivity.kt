@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         myWebView.isHorizontalScrollBarEnabled = false//가로 스크롤
         myWebView.isVerticalScrollBarEnabled = false //세로 스크롤
         myWebView.scrollBarStyle = WebView.SCROLLBARS_OUTSIDE_OVERLAY // 스크롤 노출 타입
-        myWebView.isScrollbarFadingEnabled = true // 스크롤 페이딩 처리 여부ddd
+        myWebView.isScrollbarFadingEnabled = true // 스크롤 페이딩 처리 여부
 
         myWebView.loadUrl(myUrl) // OPEN URL
         myWebView.webChromeClient = WebChromeClient() //크롬을 사용할 시 ALERT를 띄움
